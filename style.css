@@ -1,7 +1,71 @@
+
 .container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
   background-color: var(--Very-Dark-Blue);
 }
-.rateUs {
+.rateUs {border-radius: 1rem;
+  max-width: 22rem;
+  min-width: 288px;
+  min-height: 20rem;
+  padding: 1rem 1rem 1rem 1rem;
   background-color: var(--Dark-Blue);
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+}
+input.rate-btt {
+  background-color: var(--Medium-Blue);
+  color: var(--Light-Grey);
+  width:  2.8rem;
+  height: 2.8rem;
+  border: 0px;
+  border-radius: 50%;
+}
+.title{
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  color: var(--White);
+}
+.description{
+  font-family: 'Overpass', sans-serif;
+  color: var(--Light-Grey);
+}
+input.rate-btt:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+  border: 0px;
+}
+input.rate-btt:checked {
+  background-color: var(--Light-Grey);
+  color: var(--White);
+  border: 0px;
+}
+.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.btn-group {
+  width: 98%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+button {
+  width: 98%;
+  height: 2.5rem;
+  border-radius: 1.4rem;
+  background-color: var(--Orange);
+  text-transform: uppercase;
+  color: var(--White);
+}
+button:hover {
+  background-color: var(--White);
+  color: var(--Orange);
 }

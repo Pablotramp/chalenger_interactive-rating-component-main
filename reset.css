@@ -2,11 +2,12 @@
 
 :root {
   /*Primary*/
-  --Orange: hsl(25, 97%, 53%)
+  --Orange: hsl(25, 97%, 53%);
   /*Neutral*/
   --White: hsl(0, 0%, 100%);
   --Light-Grey: hsl(217, 12%, 63%);
   --Medium-Grey: hsl(216, 12%, 54%);
+  --Medium-Blue: hsl(210, 32%, 22%);
   --Dark-Blue: hsl(213, 19%, 18%);
   --Very-Dark-Blue: hsl(216, 12%, 8%);
 }
@@ -21,6 +22,7 @@ body {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  font-family: 'Overpass', sans-serif;
   margin: 0;
   padding: 0;
   font-weight: normal;
