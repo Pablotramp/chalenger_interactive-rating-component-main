@@ -40,7 +40,7 @@ input.rate-btt:hover {
   color: var(--White);
   border: 0px;
 }
-input.rate-btt:checked {
+input.rate-btt:active {
   background-color: var(--Light-Grey);
   color: var(--White);
   border: 0px;
@@ -68,4 +68,7 @@ button {
 button:hover {
   background-color: var(--White);
   color: var(--Orange);
+}
+.thkU {
+  color: var(--Light-Grey);
 }
